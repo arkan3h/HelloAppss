@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Palmrest</string>
+    <string name="home_text">
+        Photo view by @arkan_3h \n
+        Press gallery icon in top right to import image
+    </string>
+    <string name="lock_text">
+        Press lock icon in top left to lock the position
+    </string>
+    <string name="hex">Hex:</string>
+    <string name="rgb">R: \nG: \nB:</string>
+</resources>
