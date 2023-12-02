@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Palmrest</string>
     <string name="home_text">
-        Photo view by @arkan_3h \n
+        Imageview by @arkan_3h \n
         Press gallery icon in top right to import image
     </string>
     <string name="lock_text">
