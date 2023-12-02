@@ -37,11 +37,12 @@ jobs:
         env: 
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
-          tag_name: ${{ steps.get_version.outputs.VERSION }}.0
-          release_name: Release ${{ steps.get_version.outputs.VERSION }}.0
+          tag_name: ${{ steps.get_version.outputs.VERSION }}
+          release_name: Release ${{ steps.get_version.outputs.VERSION }}
           asset_path: app/build/outputs/apk/debug/app-debug.apk
           asset_name: Palmrest.apk
           asset_content_type: application/zip
+          allowUpdates: true
 
       - name: Release build
         run: ./gradlew assembleRelease
